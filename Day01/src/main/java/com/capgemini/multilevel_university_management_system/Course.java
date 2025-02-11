@@ -5,7 +5,7 @@ public class Course<T extends CourseType> {
     private String duration;
     private double price;
     private T type;
-    Course(String courseName, String duration, double price, T type){
+    public Course(String courseName, String duration, double price, T type){
         this.courseName = courseName;
         this.duration = duration;
         this.price = price;

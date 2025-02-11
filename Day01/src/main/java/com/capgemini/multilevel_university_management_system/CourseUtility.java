@@ -7,7 +7,7 @@ public class CourseUtility {
     List< Course<? extends CourseType>> courseList = new ArrayList<>();
 
     // Method to add the course
-    void addCourse(Course<? extends CourseType> course){
+    public void addCourse(Course<? extends CourseType> course){
         courseList.add(course);
     }
 

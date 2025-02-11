@@ -3,7 +3,7 @@ package com.capgemini.multilevel_university_management_system;
 public abstract class CourseType {
     private String courseType;
 
-    CourseType(String type){
+    public CourseType(String type){
         this.courseType = type;
     }
 
