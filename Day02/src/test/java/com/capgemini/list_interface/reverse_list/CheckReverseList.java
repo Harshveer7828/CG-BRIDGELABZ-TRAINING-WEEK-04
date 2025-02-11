@@ -1,4 +1,4 @@
-package com.capgemini.list_interface_reverse_list;
+package com.capgemini.list_interface.reverse_list;
 
 import com.capgemini.list_interface.reverse_list.Reverse;
 import org.junit.jupiter.api.Test;
