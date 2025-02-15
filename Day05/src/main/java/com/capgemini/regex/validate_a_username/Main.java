@@ -1,4 +1,4 @@
-package com.capgemini.regex_problems.validate_a_username;
+package com.capgemini.regex.validate_a_username;
 
 import java.io.BufferedReader;
 import java.io.IOException;

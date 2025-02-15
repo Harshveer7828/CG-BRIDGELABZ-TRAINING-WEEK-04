@@ -1,5 +1,4 @@
-package com.capgemini.regex.extract_currency_values_from_a_text;
-
+package com.capgemini.regex.validate_a_social_security_number;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -11,11 +10,10 @@ public class Main {
         try(BufferedReader br = new BufferedReader(new InputStreamReader(System.in))){
 
             //get user input
-            System.out.print("Enter your text: ");
+            System.out.print("Enter the text: ");
             String text = br.readLine().trim();
 
-            System.out.println("Currencies are: "+ ExtractCurrency.extractCurrency(text));
-
+            System.out.println((ValidateSecurityNumber.validateSecurityNumber(text)) ? "Valid" : "Invalid");
         }catch (IOException e){
             System.out.println("Exception caught "+e.getMessage());
         }

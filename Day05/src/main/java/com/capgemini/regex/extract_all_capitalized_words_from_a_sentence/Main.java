@@ -1,4 +1,4 @@
-package com.capgemini.regex_problems.extract_all_capitalized_words_from_a_sentence;
+package com.capgemini.regex.extract_all_capitalized_words_from_a_sentence;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -14,7 +14,7 @@ public class Main {
             System.out.print("Enter your sentence: ");
             String text = br.readLine().trim();
 
-            ArrayList<String> ans = new ArrayList<>(ExtractCapitalWord.findCapital(text));
+            ArrayList<String> ans = new ArrayList<>(com.capgemini.regex.extract_all_capitalized_words_from_a_sentence.ExtractCapitalWord.findCapital(text));
             System.out.println(ans);
         }catch (IOException e){
             System.out.println("Exception caught "+e.getMessage());

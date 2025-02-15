@@ -1,4 +1,4 @@
-package com.capgemini.regex_problems.extract_links_from_a_web_page;
+package com.capgemini.regex.extract_links_from_a_web_page;
 
 import java.util.ArrayList;
 import java.util.regex.Matcher;
