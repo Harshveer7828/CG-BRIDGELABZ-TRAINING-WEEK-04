@@ -11,7 +11,7 @@ public class Main {
             System.out.println("Enter the text containing the Dates: ");
             String text = br.readLine().trim();
 
-            // Extract and prints the email address in the string
+            // Extract and prints the dates in the string
             if (!ExtractDatesFromText.extractDates(text).isEmpty()){
                 System.out.println(ExtractDatesFromText.extractDates(text));
             }else System.out.println("No dates found");
