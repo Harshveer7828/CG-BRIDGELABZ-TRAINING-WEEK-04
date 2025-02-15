@@ -1,6 +1,5 @@
 package com.capgemini.regex.extract_emails_from_text;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

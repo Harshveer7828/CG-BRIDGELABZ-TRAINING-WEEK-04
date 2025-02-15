@@ -1,6 +1,5 @@
 package com.capgemini.regex.extract_emails_from_text;
 
-import com.capgemini.regex.validate_license_plate_number.ValidateRegex;
 
 import java.io.BufferedReader;
 import java.io.IOException;
