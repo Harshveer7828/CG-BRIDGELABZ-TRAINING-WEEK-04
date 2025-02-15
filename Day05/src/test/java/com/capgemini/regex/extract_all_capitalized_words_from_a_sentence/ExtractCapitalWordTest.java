@@ -1,4 +1,4 @@
-package com.capgemini.regex_problems.extract_all_capitalized_words_from_a_sentence;
+package com.capgemini.regex.extract_all_capitalized_words_from_a_sentence;
 
 import org.junit.jupiter.api.Test;
 

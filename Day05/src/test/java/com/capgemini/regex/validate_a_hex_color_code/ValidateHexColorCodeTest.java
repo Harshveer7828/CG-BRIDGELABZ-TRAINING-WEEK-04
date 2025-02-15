@@ -1,4 +1,4 @@
-package com.capgemini.regex_problems.validate_a_hex_color_code;
+package com.capgemini.regex.validate_a_hex_color_code;
 
 import org.junit.jupiter.api.Test;
 
@@ -11,12 +11,12 @@ public class ValidateHexColorCodeTest {
     //this test will pass if the method will return true for valid color code
     @Test
     void isValidTest1(){
-        assertTrue(ValidateHexColorCode.isValid("#FFA500"));
+        assertTrue(com.capgemini.regex_problems.validate_a_hex_color_code.ValidateHexColorCode.isValid("#FFA500"));
     }
 
     //this test will fail if the method will return true for valid color code
     @Test
     void isValidTest2(){
-        assertFalse(ValidateHexColorCode.isValid("#123"));
+        assertFalse(com.capgemini.regex_problems.validate_a_hex_color_code.ValidateHexColorCode.isValid("#123"));
     }
 }

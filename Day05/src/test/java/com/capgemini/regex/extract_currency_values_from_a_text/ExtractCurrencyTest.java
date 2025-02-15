@@ -1,4 +1,4 @@
-package com.capgemini.regex_problems.extract_currency_values_from_a_text;
+package com.capgemini.regex.extract_currency_values_from_a_text;
 
 import org.junit.jupiter.api.Test;
 

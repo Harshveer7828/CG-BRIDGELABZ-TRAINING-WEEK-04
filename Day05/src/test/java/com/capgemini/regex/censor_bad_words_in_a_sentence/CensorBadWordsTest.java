@@ -1,4 +1,4 @@
-package com.capgemini.regex_problems.censor_bad_words_in_a_sentence;
+package com.capgemini.regex.censor_bad_words_in_a_sentence;
 
 import org.junit.jupiter.api.Test;
 
@@ -14,12 +14,12 @@ public class CensorBadWordsTest {
 
     @Test
     void sensorTest1(){
-        assertEquals("This is a **** bad example with some **** words", CensorBadWords.sensor(badWords, "This is a damn bad example with some stupid words"));
+        assertEquals("This is a **** bad example with some **** words", com.capgemini.regex_problems.censor_bad_words_in_a_sentence.CensorBadWords.sensor(badWords, "This is a damn bad example with some stupid words"));
     }
 
 
     @Test
     void sensorTest2(){
-        assertEquals("This is a damn bad example with some stupid words", CensorBadWords.sensor(badWords, "This is a damn bad example with some stupid words"));
+        assertEquals("This is a damn bad example with some stupid words", com.capgemini.regex_problems.censor_bad_words_in_a_sentence.CensorBadWords.sensor(badWords, "This is a damn bad example with some stupid words"));
     }
 }
